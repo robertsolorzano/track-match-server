@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 require('dotenv').config();
 
-
+//before refactor
 let globalAccessToken;
 let tokenExpirationTime;
 let totalSpotifyRequests = 0;
